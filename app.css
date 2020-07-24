@@ -1,10 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
   background-repeat: no-repeat;
-  background: -webkit-gradient(linear, left top, left bottom, from(#8dafd8), to(#306aa7));
   background: linear-gradient(to bottom, #8dafd8, #306aa7);
 }
 
@@ -27,22 +32,15 @@ body {
   font-size: 2em;
   width: 100%;
   height: 150%;
-  -webkit-box-shadow: 10px, 10px, 8px, #888888;
-          box-shadow: 10px, 10px, 8px, #888888;
+  box-shadow: 10px, 10px, 8px, #888888;
 }
 
 .playerinput {
   padding-top: 0px;
   padding-bottom: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .p1style {
@@ -82,12 +80,10 @@ body {
   color: white;
   border-color: #f41616;
   background-color: #f64747;
-  -webkit-box-shadow: 5px, 100px, 8px, 0px, #888888;
-          box-shadow: 5px, 100px, 8px, 0px, #888888;
+  box-shadow: 5px, 100px, 8px, 0px, #888888;
 }
 
 .resetstyle:hover {
   background-color: #f41616;
   color: white;
 }
-/*# sourceMappingURL=app.css.map */
