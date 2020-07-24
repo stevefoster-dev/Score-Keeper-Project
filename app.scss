@@ -17,16 +17,17 @@ body {
 .scoreboard {
   color: white;
   text-align: center;
-  font-size: 10em;
+  font-size: 8em;
 }
 
 .rules {
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .inbox {
-  width: 400px;
+  font-size: 2em;
+  width: 100%;
   height: 150%;
   box-shadow: 10px, 10px, 8px, #888888;
 }
@@ -70,7 +71,7 @@ body {
 .resetstyle {
   font-size: 130%;
   margin-top: 40px;
-  width: 400px;
+  width: 325px;
   color: white;
   border-color: $color3;
   background-color: lighten($color3, 10%);
