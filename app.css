@@ -1,0 +1,93 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-repeat: no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(#8dafd8), to(#306aa7));
+  background: linear-gradient(to bottom, #8dafd8, #306aa7);
+}
+
+.winner {
+  color: #03f003;
+}
+
+.scoreboard {
+  color: white;
+  text-align: center;
+  font-size: 8em;
+}
+
+.rules {
+  text-align: center;
+  font-size: 2em;
+}
+
+.inbox {
+  font-size: 2em;
+  width: 100%;
+  height: 150%;
+  -webkit-box-shadow: 10px, 10px, 8px, #888888;
+          box-shadow: 10px, 10px, 8px, #888888;
+}
+
+.playerinput {
+  padding-top: 0px;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.p1style {
+  font-size: 150%;
+  border-radius: 10px 50px 10px;
+  width: 185px;
+  height: 185px;
+  color: white;
+  border-color: #4a9fae;
+  background-color: #6bb3c0;
+}
+
+.p1style:hover {
+  background-color: #4a9fae;
+  color: white;
+}
+
+.p2style {
+  font-size: 150%;
+  border-radius: 10px 60px 10px;
+  width: 185px;
+  height: 185px;
+  color: white;
+  border-color: #48d292;
+  background-color: #9ae6c3;
+}
+
+.p2style:hover {
+  background-color: #48d292;
+  color: white;
+}
+
+.resetstyle {
+  font-size: 130%;
+  margin-top: 40px;
+  width: 325px;
+  color: white;
+  border-color: #f41616;
+  background-color: #f64747;
+  -webkit-box-shadow: 5px, 100px, 8px, 0px, #888888;
+          box-shadow: 5px, 100px, 8px, 0px, #888888;
+}
+
+.resetstyle:hover {
+  background-color: #f41616;
+  color: white;
+}
+/*# sourceMappingURL=app.css.map */
